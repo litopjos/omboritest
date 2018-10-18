@@ -26,11 +26,11 @@ class App extends Component {
   render() {
 
     return (
-      <div className="App">
+      <div className="App container">
 
         {/* Show the Loading component only once.*/}
         {this.state.isLoading && 
-          <ShowLoading timeInterval={5000} timeOutCallback={this.handleTimeOut}/>}
+          <ShowLoading timeInterval={3000} timeOutCallback={this.handleTimeOut}/>}
 
         {/* Render the users once the Loading component has timed out. */}
         {!this.state.isLoading && <RenderUsers users={this.props.userData}/>}
