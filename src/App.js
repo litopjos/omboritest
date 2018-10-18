@@ -52,7 +52,6 @@ class App extends Component {
 
   // This called when 'more users' is clicked.
   handleMoreUsers = ()=>{
-    alert('more users');
     this.props.getUserData(this.props.userPage+1)
   }
 
