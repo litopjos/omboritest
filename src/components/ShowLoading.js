@@ -1,13 +1,10 @@
 import React from "react";
- 
-import Posed from "react-pose";
 
-const Circle = Posed.div(
-    {
-        hidden: { opacity: 0},
-        visible: { opacity: 1}
-    }
-)
+
+
+import './ShowLoading.css'
+
+
 
 export class ShowLoading extends React.Component {
     constructor (props) {
@@ -41,10 +38,14 @@ export class ShowLoading extends React.Component {
         const isFlashOn = this.state.isFlashOn;
 
         return (
-            <div>
-                {isVisible && isFlashOn && <h1>Loading...</h1>}
+            <div className="container_loading">
+            
+                {isVisible && <span class="pulse"></span>}
+
             </div>
         );
     }
 
 }
+
+//{isVisible && isFlashOn && <h1>Loading...</h1>}
