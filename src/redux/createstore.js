@@ -1,3 +1,11 @@
+/* -----------------------------------------------
+FILE: createstore.js
+
+DESCRIPTION:
+
+
+(c) 2018 Joselito Pe 
+-------------------------------------------------- */
 import {applyMiddleware, createStore, compose} from "redux";
 import thunk from "redux-thunk";
 

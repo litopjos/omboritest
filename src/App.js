@@ -1,3 +1,12 @@
+/* -----------------------------------------------
+FILE: App.js
+
+DESCRIPTION:
+
+
+(c) 2018 Joselito Pe 
+-------------------------------------------------- */
+
 import React, { Component } from 'react';
 import {connect} from "react-redux";
 import logo from './pulse.png';

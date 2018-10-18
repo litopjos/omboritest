@@ -1,10 +1,14 @@
+/* -----------------------------------------------
+FILE: ShowLoading.js
+
+DESCRIPTION:
+
+
+(c) 2018 Joselito Pe 
+-------------------------------------------------- */
 import React from "react";
 
-
-
 import './ShowLoading.css'
-
-
 
 export class ShowLoading extends React.Component {
     constructor (props) {

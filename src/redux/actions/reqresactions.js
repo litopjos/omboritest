@@ -1,3 +1,11 @@
+/* -----------------------------------------------
+FILE: reqresactions.js
+
+DESCRIPTION:
+
+
+(c) 2018 Joselito Pe 
+-------------------------------------------------- */
 import axios from "axios";
 
 const getUserData = (users,page)=>{

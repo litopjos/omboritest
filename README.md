@@ -1,3 +1,11 @@
+This app was is an Omburi coding test implemented in ReactJS.
+
+It does the following:
+
+1- On load up, it will show a pulse animation for approx 3 sec.
+2- After the 3 seconds, the animation disappears to be replaced by a list of
+   users obtained from https://reqres.in/api/users?page=<page_number>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

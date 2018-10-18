@@ -1,3 +1,11 @@
+/* -----------------------------------------------
+FILE: reqresreducer.js
+
+DESCRIPTION:
+
+
+(c) 2018 Joselito Pe 
+-------------------------------------------------- */
 export const reqResReducer =  (state = {},action)=>{
 
         switch (action.type) {

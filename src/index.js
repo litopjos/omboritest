@@ -1,3 +1,11 @@
+/* -----------------------------------------------
+FILE: index.js
+
+DESCRIPTION:
+
+
+(c) 2018 Joselito Pe 
+-------------------------------------------------- */
 import {Provider} from "react-redux";
 import React from 'react';
 import ReactDOM from 'react-dom';

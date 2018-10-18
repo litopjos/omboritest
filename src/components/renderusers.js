@@ -1,3 +1,11 @@
+/* -----------------------------------------------
+FILE: renderusers.js
+
+DESCRIPTION:
+
+
+(c) 2018 Joselito Pe 
+-------------------------------------------------- */
 import React from "react";
 import "./renderusers.css";
 
@@ -6,7 +14,7 @@ export const RenderUsers = (props)=>{
 //    alert('hey');
     return (
         <div >
-        
+
             <div className="App-header">
                 <h1>Users</h1>
             </div>
