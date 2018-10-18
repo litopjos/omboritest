@@ -3,8 +3,38 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: pulse 2s infinite;
+
+  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
   height: 40vmin;
+}
+
+//  animation: App-logo-spin infinite 20s linear;
+
+@-webkit-keyframes App-logo {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes App-logo {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
 }
 
 .App-header {
